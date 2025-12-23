@@ -5,131 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
-    <style>
-        body{
-            background-color:black;
-            color:white;
-            margin:10px;
-            padding:10px;
-        }
-        
-        .small{
-                border: 1px solid #666b71;
-                    background: #494d51;
-                    height:32px;
-                    border-radius: 6px;
-                    text-align: center;
-                    color:#e9e9ea;
-                    padding:12px 11px 8px;
-                    margin:20px 9px 0px;
-                    width:114.92;
-                    height:32;
-                    font-size:14px;
-                    font-family:sans-serif;
-        }
-        
-        
-    input::placeholder {
-       color: white;
-       font-size: larger;
-}
-.below_image{
-    height:10px;
-    width:30px;
-    background:#494d51;
-    padding:5%;
-}
-.explore{
-    height:200px;
-    width: 500px;
-
-    border-radius: 20px;
-    margin-left:30px;
-    color:white;
-    font-size: 20px;
-    text-align: center;
-    align-content: center;
-    margin-bottom: 10px;
-    justify-content: center;
-}
-.view{
-
-    width:129.95px;
-    text-align: center;
-    padding:2px 0px 0px 11px;
-    height: 43px;
-    border-radius: 35px;
-    background: none;
-    border: 1px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2px 0 0 11px;
-    margin-left:180px;
-    font-size: 20px;
-    font-weight: 400;
-
-}
-.image_something{
-    margin-top:100px;
-    margin-left:100px ;
-    position: relative;
-    width:100%;
-    max-width: 1042px;
-    height:500px;
-    border:1px white solid;
-    border-radius: 35px;
-    background: transparent;
-}
-.below_image.div{
-    width:500px;
-    background-color: #494d51;
-}
-</style>
+ <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div class="root">
-    <header>
-        <div style="display:flex; justify-content: space-between; height:50px;">
-        
-        <div style="height:50px; width:50px; display: inline;"><img src="./gfg-gg-logo.svg" alt="." style="display:inline; background: transparent;" height="24" width="48;"></div>
-        <div style="display:inline;">
-        <input type="text" style="background-color: black; border-radius:20px;border:1px #308D46 solid; height:34px; width:250px; color:white;" placeholder=" Search...">
+<header class="navbar">
+    <div class="nav-top">
+        <div class="nav-left">
+            <div class="logo"><img src="./images/gfg-gg-logo.svg" alt="." style="display:inline; background: transparent;font-size: 28px;font-weight: bold;color: #2f8d46;"></div>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+            </div>
         </div>
-        
-        <div style="display:inline;">
-            <ul type="none"style="display:flex;" >
-            <li> Courses <i class="fa-solid fa-angle-down"></i></li>
-            <li >Tutorials <i class="fa-solid fa-angle-down"></i></li>
-            <li >Practice <i class="fa-solid fa-angle-down"></i></li>
-            <li >Jobs <i class="fa-solid fa-angle-down"></i></li>
-            </ul>
+
+        <div class="nav-center">
+            <a href="#">Courses<i class="fa-solid fa-angle-down"></i> </a>
+            <a href="#">Tutorials <i class="fa-solid fa-angle-down"></i></a>
+            <a href="#">Practice <i class="fa-solid fa-angle-down"></i></a>
+            <a href="#">Jobs <i class="fa-solid fa-angle-down"></i></a>
         </div>
-        <div style="display:flex; gap: 10px;">
-            
-            <div style="background-color: #8d9196; height:30px;width:30px; border-radius: 70px;"><i class="fa-regular fa-bell"></i></div>
-            <div style="background-color: #8d9196; height:30px;width:30px; border-radius: 70px;"><i class="fa-solid fa-a"></i></div>
+
+        <div class="nav-right">
+            <div class="icon"><i class="fa-regular fa-sun-bright"></i></div>
+            <div class="icon"><i class="fa-regular fa-bell"></i></div>
+            <div class="profile">A</div>
         </div>
     </div>
-</div>
-    
+    <div class="nav-bottom">
+        <a href="#">DSA</a>
+        <a href="#">Practice Problems</a>
+        <a href="#">C</a>
+        <a href="#">C++</a>
+        <a href="#">Java</a>
+        <a href="#">Python</a>
+        <a href="#">JavaScript</a>
+        <a href="#">Data Science</a>
+        <a href="#">Machine Learning</a>
+        <a href="#">Courses</a>
+    </div>
+</header>
 
 
-    <nav>
-        <ul type="none" style="display:flex; justify-content: center; gap:22px;">
-      <li><a href=".#" style="color:white; text-decoration:none;">DSA</a></li>
-      <li><a href=".#" style="color:white; text-decoration:none;">Practice Problems</a></li>
-      <li><a href=".#" style="color:white; text-decoration:none;">C</a></li>
-      <li><a href=".#" style="color:white; text-decoration:none;">C++</a></li>
-      <li><a href=".#" style="color:white; text-decoration:none;">Java</a></li>
-      <li><a hrevf=".#"style="color:white; text-decoration:none;">Python</a></li>
-      <li><a href=".#" style="color:white; text-decoration:none;">Data Science</a></li>
-      <li><a href=".#" style="color:white; text-decoration:none;">Machine Learning</a></li>
-      <li><a href=".#" style="color:white; text-decoration:none;">Courses</a></li>
-       </ul>
-    </nav>
-    </header>
     <br><br><br>
+<div class="root">
     <div style="height:50px; width:100%; display:flex; flex-direction: column;justify-content: center; align-items: center; background: linear-gradient(180 deg,#3b3b3b,#111112);">
         <br>
     <div><h1>Hello,What Do You Want To Learn?</h1></div>
@@ -141,29 +59,115 @@
     </div>
     </div>
     <div class="image_something">
-        <img src="./file2.svg" style="align-content:end; margin-left:450px;">
-        <ul type="none" style="display:flex; gap:10px; justify-content: space-around;">
-        <li class="below_image"><div><img src="./11_expert_session.svg"></div>1:1 Expert Sessions</li>
-        <li class="below_image"><div><img src="./personalized_feed.svg"></div>Personalized Feed</li>
-        <li class="below_image"><div><img src="./flexible_and afoordable.svg"></div>Flexible & Affordable</li>
-        <li class="below_image"><div><img src="./build_your_networks.svg"></div>Build Your Network</li>
-        </ul>
+        <div>
+        <div><img src="./images/file2.svg" style="align-content:end; margin-left:450px; height:500px;"></div>
+        <div><ul type="none" style="display:flex; gap:10px; justify-content: flex-start;">
+        <li class="below_image"><img src="./images/11_expert_session.svg">1:1 Expert Sessions</li>
+        <li class="below_image"><img src="./images/personalized_feed.svg">Personalized Feed</li>
+        <li class="below_image"><img src="./images/flexible_and afoordable.svg">Flexible & Affordable</li>
+        <li class="below_image"><img src="./images/build_your_networks.svg">Build Your Network</li>
+        </ul></div>
+        </div>
     </div>
     <h2>Courses</h2>
-    <div style="">
-        <div><img src="./devops_engineering.webp"><p class="template">DevOps Engineering with AI:Planning to Production-.....</p></div>
-        <div><img src="./tech_interview.webp"><p class="template">Tech Interview 101 : DSA to System Design for Workin...</p></div>
-        <div><img src="./da.webp"><p class="template">Complete Data Analytics with AI-Live</p></div>
-        <div><img src="./complete_DSA.webp"><p class="template">Complete Data Science and MAchine Learning Carrer...</p></div>
-        <div><img src="./cpp.webp"><p class="template">C++ Programming - Self Paced</p></div>
-        <div><img src="./Java.webp"><p class="template">Java Programming - Self Paced</p></div>
+    <div class="grid_image">
+    <div class="card">
+    <div class="card-top image1">
+        <div class="rating">
+            ⭐ <div>4.9</div>
+        </div>
     </div>
-    <div>
+    <div class="card-bottom">
+        <h3>Tech Interview 101 : DSA to System Design for Working...</h3>
+        <p class="level">📊 Beginner to Advanced</p>
+        <div class="footer">
+            <div class="interest">📈 381k+ interested Geeks</div>
+            <div class="button">Explore now</div>
+        </div>
+    </div>
+</div>  
+<div class="card">
+<div class="card-top image2">
+        <div class="rating">
+            ⭐ <div>4.9</div>
+        </div>
+    </div>
+    <div class="card-bottom">
+        <h3>Tech Interview 101 : DSA to System Design for Working...</h3>
+        <p class="level">📊 Beginner to Advanced</p>
+        <div class="footer">
+            <div class="interest">📈 381k+ interested Geeks</div>
+            <div class="button">Explore now</div>
+        </div>
+    </div>
+</div> 
+<div class="card">
+    <div class="card-top image3">
+        <div class="rating">
+            ⭐ <div>4.9</div>
+        </div>
+    </div>
+    <div class="card-bottom">
+        <h3>Tech Interview 101 : DSA to System Design for Working...</h3>
+        <p class="level">📊 Beginner to Advanced</p>
+        <div class="footer">
+            <div class="interest">📈 381k+ interested Geeks</div>
+            <div class="button">Explore now</div>
+        </div>
+    </div>
+</div>    
+<div class="card">
+    <div class="card-top image4">
+        <div class="rating">
+            ⭐ <div>4.9</div>
+        </div>
+    </div>
+    <div class="card-bottom">
+        <h3>Tech Interview 101 : DSA to System Design for Working...</h3>
+        <p class="level">📊 Beginner to Advanced</p>
+        <div class="footer">
+            <div class="interest">📈 381k+ interested Geeks</div>
+            <div class="button">Explore now</div>
+        </div>
+    </div>
+</div> 
+<div class="card">
+    <div class="card-top image5">
+        <div class="rating">
+            ⭐ <div>4.9</div>
+        </div>
+    </div>
+    <div class="card-bottom">
+        <h3>Tech Interview 101 : DSA to System Design for Working...</h3>
+        <p class="level">📊 Beginner to Advanced</p>
+        <div class="footer">
+            <div class="interest">📈 381k+ interested Geeks</div>
+            <div class="button">Explore now</div>
+        </div>
+    </div>
+</div> 
+<div class="card">
+    <div class="card-top image6">
+        <div class="rating">
+            ⭐ <div>4.9</div>
+        </div>
+    </div>
+    <div class="card-bottom">
+        <h3>Tech Interview 101 : DSA to System Design for Working...</h3>
+        <p class="level">📊 Beginner to Advanced</p>
+        <div class="footer">
+            <div class="interest">📈 381k+ interested Geeks</div>
+            <div class="button">Explore now</div>
+        </div>
+    </div>
+</div>           
+</div>
     <h2>Must Explore</h2>
-    <div class=""><p>Jobs for you <i class="fa-solid fa-arrow-right"></i></p></div>
-    <div><p>Hire with us<i class="fa-solid fa-arrow-right"></i></p></div>
-    <div><P>Advertise with Us<i class="fa-solid fa-arrow-right"></i></P></div>
-    <div><p>Placement Trainin...<i class="fa-solid fa-arrow-right"></i></p></div>
+    <div style="display:flex; justify-content:space-between; align-content: center; gap:25px;">
+    <div class="muexp"><p>Jobs for you <div><i class="fa-solid fa-arrow-right"></i></div></p></div>
+    <div class="muexp"><p>Hire with us<div class="name"><i class="fa-solid fa-arrow-right"></i></div></p></div>
+    <div class="muexp"><P>Advertise with Us<i class="fa-solid fa-arrow-right"></i></P></div>
+    <div class="muexp"><p>Placement Trainin...<i class="fa-solid fa-arrow-right"></i></p></div>
     </div>
     <h2>Explore</h2>
     <div style="display:grid; grid-template-columns: repeat(2,auto); justify-content:center; gap:10px; align-content: center;">
@@ -226,10 +230,11 @@
             <div class="view">View more <i class="fa-sharp fa-thin fa-arrow-right"></i></div>
         </div>
     </div>
+    </div>
     <hr>
     <div style="display:flex">
         <div>
-            <div><img src="./gfgFooterLogoDark.png"></div>
+            <div><img src="./images/gfgFooterLogoDark.png"></div>
             <br>
             <div><i class="fa-sharp fa-light fa-location-dot"></i><b>Corporate & Communications Address:</b><br>A-143,7th Floor,Sovereign Corporate <br>Tower, Sector- 136, Noida, Uttar <br>Pradesh (201305)</div>
             <div><i class="fa-sharp fa-light fa-location-dot"></i><b>Registered Address:</b><br> K 061, Tower K, Gulshan Vivante<br> Apartment, Sector 137,Noida, Gautam<br> buddh Nagar,Uttar Pradesh, 201305</div>
@@ -314,9 +319,9 @@
             </ul>
         </div>
     </div>
-    <div><i class="fa-brands fa-linkedin" style="color: #8d9196; width:48; height:32px;"></i><i class="fa-brands fa-instagram" style="color: #8d9196; width:38px; height:38px; margin:0px 0px 8px;"></i><i class="fa-brands fa-x-twitter" style="color: #8d9196; width:48; height:32px; margin:0px 0px 8px;"></i><i class="fa-brands fa-facebook-f" style="color: #8d9196; width:48; height:32px; margin:0px 0px 8px;"></i><i class="fa-brands fa-youtube" style="color: #8d9196; width:48; height:32px; margin:0px 0px 8px;"></i><img src="./googleplay-(1).png"><img src="./appstore-(1).png"></div>
+    <div><i class="fa-brands fa-linkedin" style="color: #8d9196; width:48; height:32px;"></i><i class="fa-brands fa-instagram" style="color: #8d9196; width:38px; height:38px; margin:0px 0px 8px;"></i><i class="fa-brands fa-x-twitter" style="color: #8d9196; width:48; height:32px; margin:0px 0px 8px;"></i><i class="fa-brands fa-facebook-f" style="color: #8d9196; width:48; height:32px; margin:0px 0px 8px;"></i><i class="fa-brands fa-youtube" style="color: #8d9196; width:48; height:32px; margin:0px 0px 8px;"></i><img src="./images/googleplay-(1).png"><img src="./images/appstore-(1).png"></div>
     <hr>
     <footer><p>@GeeksforGeeks, Sanchhaya Education Private Limited,All rights reserved</p></footer>
-</div>
+
 </body>
 </html>

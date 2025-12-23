@@ -1,0 +1,315 @@
+
+        body{
+            background-color:black;
+            color:white;
+            margin:10px;
+            padding:0px;
+        }
+        .muexp{
+                background: rgb(174, 132, 209);
+                
+                
+                
+                
+                font-size: larger;
+                width: 244.34px;
+    height: 104px;
+    padding: 11px 18px;
+    border-radius: 12px;
+    color: #fff;
+    
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 39.29px;
+    letter-spacing: normal;
+        }
+        .small{
+                border: 1px solid #666b71;
+                    background: #494d51;
+                    height:32px;
+                    border-radius: 6px;
+                    text-align: center;
+                    color:#e9e9ea;
+                    padding:12px 11px 8px;
+                    margin:20px 9px 0px;
+                    width:114.92;
+                    height:32;
+                    font-size:14px;
+                    font-family:sans-serif;
+        }
+    .root{
+        padding:70px;
+        margin:10px;
+    }  
+        
+    input::placeholder {
+       color: white;
+       font-size: larger;
+}
+.below_image{
+     border:solid white 1px;
+    background:#494d51;
+    font-size: 16px;
+    height:50px;
+    width:300px;
+    text-align: center;
+    border-radius: 12px;
+    align-content: center; /*
+    flex: 1;
+    background: #1a1d20;
+    padding: 18px;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 15px; */
+}
+.explore{
+    height:200px;
+    width: 500px;
+
+    border-radius: 20px;
+    margin-left:30px;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.view{
+
+    width:129.95px;
+    text-align: center;
+    padding:2px 0px 0px 11px;
+    height: 43px;
+    border-radius: 35px;
+    background: none;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0 0 11px;
+    margin-left:180px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.image_something{
+    margin-top:100px;
+    margin-left:25px;
+    position: relative;
+    width:100%;
+    max-width: 1092px;
+    height:600px;
+    border:1px white solid;
+    border-radius: 35px;
+    background: transparent;
+}
+.grid_image{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(2,1fr) ;
+    flex-wrap: nowrap; 
+    gap: 16px;
+}
+
+.template{
+    font-size: larger;
+    padding:30px;
+}
+.grid_lines{
+    height: 180px;
+    width:320px;
+}
+
+.card {
+    width: 280px;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #121212;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+}
+
+.card-top {
+    padding: 20px;
+    position: relative;
+    height: 180px;
+    background-image: url("./images/devops_engineering.webp");
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left-content h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.rating {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    
+    color: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card-bottom {
+    padding: 18px;
+    color: white;
+}
+.card-bottom h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.level {
+    color: #b0b0b0;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.interest {
+    color: #4caf50;
+    font-size: 14px;
+}
+.button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button:hover {
+    background: #1b5e20;
+}
+.image2{
+    background-image: url("./images/tech_interview.webp");
+    /* background-size: cover;       */
+    background-position: center;
+    background-repeat: no-repeat;
+    height:180px;
+    width:280px;
+}
+.image3{
+    background-image: url("./images/da.webp");
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image4{
+    background-image: url("./images/complete_DSA.webp");
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image5{
+    background-image: url("./images/cpp.webp");
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image6{
+    background-image: url("./images/Java.webp");
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar {
+    width: 100%;
+    background: #1c1c1c;
+}
+
+/* TOP BAR */
+.nav-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    border-bottom: 1px solid #333;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2f8d46;
+}
+
+.search-box input {
+    background: #111;
+    border: 1px solid #2f8d46;
+    padding: 8px 14px;
+    border-radius: 20px;
+    color: white;
+    width: 240px;
+    outline: none;
+}
+
+.nav-center a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.nav-center a:hover {
+    color: #2f8d46;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.profile {
+    background: #fff;
+    color: #000;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* BOTTOM BAR */
+.nav-bottom {
+    display: flex;
+    gap: 20px;
+    padding: 10px 30px;
+    background: #202020;
+}
+
+.nav-bottom a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.nav-bottom a:hover {
+    color: white;
+}
+
