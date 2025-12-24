@@ -229,8 +229,6 @@
     width: 100%;
     background: #1c1c1c;
 }
-
-/* TOP BAR */
 .nav-top {
     display: flex;
     align-items: center;
@@ -294,8 +292,6 @@
     justify-content: center;
     font-weight: bold;
 }
-
-/* BOTTOM BAR */
 .nav-bottom {
     display: flex;
     gap: 20px;
@@ -312,4 +308,90 @@
 .nav-bottom a:hover {
     color: white;
 }
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    border-radius: 20px;
+    
+}
 
+/* LEFT CONTENT */
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.content h1 span {
+    color: #17c58b;
+}
+
+.content p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #cfd6dd;
+}
+
+.btn {
+    background: #17c58b;
+    border: none;
+    padding: 14px 30px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.feature {
+    padding: 15px 20px;
+    background: #1a1f26;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+/* RIGHT SIDE PROFILES */
+.profiles {
+    position: relative;
+    width: 40%;
+}
+
+/* PROFILE CIRCLES */
+.profile {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #17c58b;
+    position: absolute;
+}
+.btn {
+    background: #17c58b;
+    color: #000;
+    padding: 14px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cta-icon {
+    width: 40px;
+    height: auto;
+}
+.cta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 25px;
+}
