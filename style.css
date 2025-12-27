@@ -78,6 +78,14 @@ input::placeholder {
 }
 .nav-center a:hover {
   color: #2f8d46;
+  
+}
+.nav-center a i{
+  transition: transform 0.3s ease;
+}
+.nav-center a:hover i{
+    transform: rotate(180deg);
+
 }
 .nav-right {
   display: flex;
@@ -115,7 +123,7 @@ input::placeholder {
   font-size: 14px;
 }
 .nav-bottom a:hover {
-  color: #2f8d46;
+  color: #2f8d46;  
 }
 .root {
   padding: 70px;
