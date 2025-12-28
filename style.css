@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  
 }
 .nunito {
   font-family: "Nunito", sans-serif;
@@ -22,6 +23,10 @@ body {
         linear-gradient(180deg, #505050 0%, #111 7%, #11181C 100%),
         linear-gradient(180deg, #11181C 0%, #11181C 100%);
     color: #fff;
+    
+    min-height: 100%;
+    display:block;
+    align-items:center;
 }
 /* navbar */
 .navbar {
@@ -285,7 +290,7 @@ input::placeholder {
 }
 .card {
   border-radius: 14px;
-
+  
   background: #121212;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
 }
@@ -387,17 +392,18 @@ input::placeholder {
     justify-content:space-between; 
     align-content: center; 
     gap:25px;
+    width:100%;
 }
 .muexp {
   background: rgb(174, 132, 209);
 
   font-size: larger;
-  width: 244.34px;
+  /* width: 244.34px ; */
   height: 104px;
   padding: 11px 18px;
   border-radius: 12px;
   color: #fff;
-   
+   width:auto;
   font-size: 22px;
   font-weight: 600;
   line-height: 39.29px;
@@ -513,6 +519,10 @@ h1 {
     margin:auto;
   overflow-x: hidden;
 }
+.root{
+  margin:auto;
+  padding:10px;
+}
   .navbar{
     width:100%;
   }
@@ -552,7 +562,7 @@ h1 {
   width: 100%;
   display: flex;
   }
-    .grid_image::-webkit-scrollbar {
+  .grid_image::-webkit-scrollbar {
     display: none;
     }
   .explore {
@@ -572,6 +582,10 @@ h1 {
     padding: 10px 15px;
     -webkit-overflow-scrolling: touch; 
   }
+  .card{
+    min-width: 300px;
+    white-space: wrap;  
+  }
   .nav-bottom a {
     flex-shrink: 0;   
     font-size: 13px;
@@ -580,7 +594,7 @@ h1 {
     display: none;
   }
   .first_heading{
-    font-size: 14px;
+    font-size: 24px;
   }
   .searchbar_heading{
     width:100%;
@@ -659,10 +673,11 @@ h1 {
   display:flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  
+
 }
 .explore{
-  width: 100%;
+  width:100%;
   font-size: 20px;
   align-items: center;
 }
