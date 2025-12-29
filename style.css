@@ -547,6 +547,7 @@ body {
 .root{
   margin:auto;
   padding:10px;
+  padding-left: 10px;
 }
   .navbar{
     width:100%;
@@ -556,6 +557,10 @@ body {
   }
   .fa-regular_fa-sun{
     display:none;
+  }
+  .first_heading{
+    font-size: 26px;
+    margin-top: 10px;
   }
   .profile{
     display:none;
@@ -598,6 +603,12 @@ body {
     width: 100%;
     margin-left: 0;
     font-size: 20px;
+  }
+  .expore{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
   }
   .jaadu {
     margin-bottom: 2rem;
@@ -642,7 +653,7 @@ body {
   .container_for_main {
     display: grid;
     grid-template-columns: 1fr; /* single column */
-    margin: 10;
+    margin: 10px auto;
     padding: 1rem;
   }
   .imageOP {
@@ -686,7 +697,7 @@ body {
 .must_explore::-webkit-scrollbar {
     display: none;
   }
-.mu_exp {
+.muexp {
   width: 244.34px;
   height: 104px;
   padding: 14px 18px;
@@ -708,12 +719,21 @@ body {
   width:100%;
   font-size: 20px;
   align-items: center;
+  min-width: unset;
+  padding: 20px;
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .view{
   margin: auto;
 }
 .bottom_links{
-    flex-direction: column;
+   grid-template-columns: 1fr;
+    gap: 16px;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -733,6 +753,10 @@ body {
     align-items: center;
     justify-content: center;
   }
+.grid_for_tablet{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
 footer{
     margin: 0;
    padding:0;
