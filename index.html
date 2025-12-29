@@ -19,12 +19,12 @@
         
         <div class="nav-top">
             <div class="nav-left">
-                <div><i class="fa-solid fa-bars"></i></div>
+                <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
                 <div class="logo">
                     <img class="nav_left_image" src="./images/gfg-gg-logo.svg" alt=".">
                 </div>
                 <div class="search-box">
-                    <input type="text" placeholder="Search...">
+                    <input type="text" placeholder=" Search...">
                 </div>
             </div>
             <div class="nav-center">
@@ -34,12 +34,12 @@
                 <a href="#">Jobs <i class="fa-solid fa-angle-down"></i></a>
             </div>
             <div class="nav-right">
-                <div class="search-box-mobile">
+                <div class="search-box-mobile icon profile">
                     <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
                 </div>
-                <div class="icon fa-regular_fa-sun profile"><i class="fa-regular fa-sun"></i></div>
-                <div class="icon profile" style><i class="fa-regular fa-bell"></i></div>
-                <div class="profile profile1" style="background: #fff;">A</div>
+                <div class="icon fa-regular_fa-sun profile"><i class="fa-regular fa-sun" style="color: #ffffff;"></i></div>
+                <div class="icon profile profile2"><i class="fa-regular fa-bell" style="color: #ffffff;"></i></div>
+                <div class="profile profile1 profile3" style="background: #fff;">A</div>
             </div>
         </div>
         <div class="nav-bottom">
@@ -71,13 +71,13 @@
             </div>
             <div class="heading_gradient_below_heading">
                 <div class="small nunito" style="background-color:rgb(0, 137, 94);">
-                    Master DSA
+                    <a href="#">Master DSA</a>
                 </div>
                 <div class="small nunito">
-                    Master DSA & ML
+                    <a href="#">Master DSA & ML</a>
                 </div>
                 <div class="small nunito">
-                    Master DevOps
+                    <a href="#">Master DevOps</a>
                 </div>
             </div>
         </div>
@@ -104,24 +104,29 @@
             <div class="second_div_for_second_child">
                 <div class="div_for_second_div">
                     <div><img src="./images/11_expert_session.svg"></div>
-                    <p>1:1 Expert Sessions</p>
+                    <a href="#"><p>1:1 Expert Sessions</p></a>
                 </div>
                 <div class="div_for_second_div">
                     <div><img src="./images/personalized_feed.svg"></div>
-                    <p>Personalized Feed</p>
+                    <a href="#"><p>Personalized Feed</p></a>
                 </div>
                 <div class="div_for_second_div">
                     <div><img src="./images/flexible_and afoordable.svg"></div>
-                    <p>Flexible & affordable</p>
+                    <a href="#"><p>Flexible & affordable</p></a>
                 </div>
                 <div class="div_for_second_div">
                     <div><img src="./images/build_your_networks.svg"></div>
-                    <p>Build Your Network</p>
+                    <a href="#"><p>Build Your Network</p></a>
                 </div>
             </div>
         </div>
         <!--courses-->
-        <h2 class="nunito">Courses</h2>
+        <div style="display: flex; justify-content: space-between;">
+        <div><h2 class="nunito" style="margin:0 0 0 15px ;">Courses</h2></div>
+        <div style="color: white;padding: 6px 10px; margin-right:0rem; border-radius: 20px;font-size: 13px;; background-color: rgba(0, 0, 0, .4);">
+            <div>View All</div>
+        </div>
+        </div>
         <div class="grid_image nunito">
             <div class="card">
                 <div class="card-top image1">
@@ -216,7 +221,7 @@
             </div>           
         </div>
         <!--must explore-->
-        <h2 class="nunito">Must Explore</h2>
+        <h2 class="nunito heading2" style="margin-left:30px ;">Must Explore</h2>
         <div class="must_explore nunito">
             <div class="muexp">
                 <p>Jobs for you</p>
@@ -243,7 +248,7 @@
             </div>
         </div>
         <!--explore-->
-        <h2 class="nunito">Explore</h2>
+        <h2 class="nunito" style="margin:30px 50px 10px 30px ;">Explore</h2>
         <div class="expore nunito">
             <div class="explore" style="background: linear-gradient(to right bottom, rgb(59, 89, 152), rgb(123, 153, 216));">
                 <p>Data Structure and Algorithms</p>
@@ -251,7 +256,7 @@
                     View more <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
-            <div class="explore"  style="background: linear-gradient(to right bottom, rgb(168, 92, 92), rgb(232, 156, 156));">
+            <div class="explore" style="background: linear-gradient(to right bottom, rgb(168, 92, 92), rgb(232, 156, 156));">
                 <p>Web Development</p>
                 <div class="view">
                     View more <i class="fa-solid fa-arrow-right"></i>
@@ -331,7 +336,7 @@
             </div>
         </div>
     </div>
-        <div class="nunito bottom_links">
+        <div class="nunito bottom_links" style="background-color: #111;">
             <div>
                 <div><img src="./images/gfgFooterLogoDark.png"></div>
                 <br>
@@ -444,7 +449,7 @@
                 </div>
             </div>
         </div>
-        <footer class="nunito">
+        <footer class="nunito" style="background-color: #111;">
             <p style="color:#9291A1; ">
                 @GeeksforGeeks, Sanchhaya Education Private Limited,All rights reserved
             </p>
