@@ -555,14 +555,21 @@ h1 {
   font-size:24px;
   cursor:pointer;
 }
+/* * {
+  outline: 1px solid red;
+} */
 
-body {
+body,html {
     margin:auto;
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
 }
 .root{
   padding:10px;
-
+  margin:0;
+  overflow: hidden;
+  width:90%;
   }
   .navbar{
     width:100%;
@@ -596,6 +603,7 @@ body {
     font-size: 22px;
   }
   .grid_image {
+    box-sizing: border-box;
   justify-content: flex-start; 
   overflow-x: auto;              
   white-space: nowrap;         
@@ -618,11 +626,11 @@ body {
     display:flex;
     flex-direction: column;
     align-items: center;
-    width:100%;
+    width:90%;
   }
   .jaadu {
     margin-bottom: 2rem;
-    margin-left: 0;
+    margin-left: 10rem;
   }
   .nav-bottom {
     justify-content: flex-start; 
@@ -633,8 +641,13 @@ body {
     -webkit-overflow-scrolling: touch; 
   }
   .card{
-    min-width: 300px;
+    min-width: 280px;
     white-space: wrap;  
+    max-width:90vw;
+    
+  }
+  .button{
+    white-space: nowrap;
   }
   .nav-bottom a {
     flex-shrink: 0;   
@@ -648,7 +661,8 @@ body {
     margin-top: 200px;
   }
   .searchbar_heading{
-    width:100%;
+    width:90%;
+    
   }
   .small{
     font-size: 12px;
@@ -668,12 +682,13 @@ body {
   }
   .container_for_main {
     display: grid;
+    
     grid-template-columns: 1fr; /* single column */
     /* margin: 10; */
     padding: 0;
     gap:0;
     justify-content: start;
-    margin: -10px 0 10px 10px;
+    margin: 16rem 0 10px 10px;
   }
   .first_parent_div_for_main_content{
     gap:0;
@@ -725,19 +740,12 @@ body {
   /* .muexp{
         width:auto;
   } */
-/* .muexp {
-  width: 244.34px;
-  height: 104px;
-  padding: 14px 18px;
-  border-radius: 12px;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 200;
-  line-height: 39.29px;
-  letter-spacing: normal;
-  display:flex;
-  margin:auto
-} */
+ .muexp {
+  min-width: 200.34px;
+} 
+.jadu{
+
+}
 .expore{
   display:flex;
   flex-direction: column;
