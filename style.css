@@ -36,9 +36,7 @@ body {
   top: 0;
   z-index: 1000;
 }
-.search-box-mobile{
-  display:none;
-}
+
 .nav-top {
   display: flex;
   align-items: center;
@@ -107,6 +105,10 @@ input::placeholder {
   align-items: center;
 
   gap: 14px;
+}
+.search-box-mobile{
+  display:none;
+  
 }
 .icon {
   cursor: pointer;
@@ -550,14 +552,24 @@ h1 {
 .search-box{
   display:none;
 }
+.search-box-mobile{
+  cursor: pointer;
+  font-size: 18px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color:white;
+  background: #262b2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
 .hamburger{
   display:block;
   font-size:24px;
   cursor:pointer;
 }
-/* * {
-  outline: 1px solid red;
-} */
 
 body,html {
     margin:auto;
@@ -814,7 +826,18 @@ body {
     display:none;
 }
 .search-box-mobile{
-  display:flex;}
+  cursor: pointer;
+  font-size: 18px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color:white;
+  background: #262b2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
 .profile1{
     display:none;}
 .div_Heading_gradient_heading{
