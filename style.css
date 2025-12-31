@@ -548,7 +548,7 @@ h1 {
 .hamburger{
   display:none;
 }
-@media(max-width:619px){
+@media(max-width:768px){
 .search-box{
   display:none;
 }
@@ -797,7 +797,7 @@ footer p{
     padding:0;
 }
 }
-@media (min-width: 600px) and (max-width:1023px){
+@media (min-width: 769px) and (max-width:1024px){
 body {
     margin:0;
     padding:0;
